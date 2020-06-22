@@ -26,7 +26,7 @@ export default function Resume(props) {
                             <h6>{info.basics.name}</h6>
                             <a href={"mailto:"+info.basics.role} className="text-white"><p>{info.basics.role}</p></a>
                             <a href={"tel:"+info.basics.phone} className="text-white"><p>{info.basics.phone}</p></a>
-                            <a className="btn btn-success rounded-pill text-white  hi"><h6>Viewed Profile</h6></a>
+                            <p className="btn btn-success rounded-pill text-white  hi"><h6>Viewed Profile</h6></p>
                         </div>
                     </div>
                 </div>
