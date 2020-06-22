@@ -2,15 +2,15 @@ import React from 'react';
 import './App.css';
 import data from './data.json';
 import logo from './images.svg';
-import {BrowserRouter,Route,Link} from 'react-router-dom';
+import {HashRouter,Route,Link} from 'react-router-dom';
 import Resume1 from './Resume';
 function App() {
   
   return(
-    <BrowserRouter>
+    <HashRouter>
       <Route exact path='/' component={Home}/>
       <Route exact path='/resume' component={Resume1}/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 //home
